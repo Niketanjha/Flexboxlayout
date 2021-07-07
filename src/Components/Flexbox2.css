@@ -1,44 +1,46 @@
-.mainClass{
+.mainClass2{
   display: flex;
-  flex-direction: column;
-  flex:0;
+  flex-direction: row;
   height:100vh;
 }
-.headerClass{
-  background-color: #7EE232;
-  display: flex;
-  flex:0.20;
-} 
-.middleClass{
+  .Nav2{
+    display: flex;
+    flex:0.25;
+    background-color: #D0EDD3;
+    align-self: ;
+  }
+  .headerClass2{
+    background-color: #7EE232;
+    display: flex;
+    flex:0.20;
+    align-self: flex-end;
+  } 
+.middleClass2{
   display: flex;
   flex-direction: row;
   
   flex:0.60;
 }
-  .articleClass{
+  .articleClass2{
     display: flex;
     flex:0.6;
     background-color: #FFFFFF;
   }
-  .asideClass{
+  .asideClass2{
     display: flex;
     flex:0.2;
     background-color: #F2FADA;
   }
-  .Nav{
-    display: flex;
-    flex:0.2;
-    background-color: #D0EDD3;
-  }
+  
 
-.footerClass{
+.footerClass2{
   display: flex;
   
   background-color: #7EE232;
   flex:0.20;
 }
 
-.textClass{
+.textClass2{
   font-family:sans-serif;
   font-weight:bold;
   padding:2%;
