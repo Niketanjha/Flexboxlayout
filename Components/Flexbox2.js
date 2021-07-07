@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css'
+import './Flexbox2.css'
 
-class App extends React.Component{
+class Flexbox2 extends React.Component{
   render(){
     return(
       <div className="mainClass">
@@ -26,4 +26,4 @@ class App extends React.Component{
     );
   }
 }
-export default App;
+export default Flexbox2;
