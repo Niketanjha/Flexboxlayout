@@ -3,45 +3,59 @@
   flex-direction: row;
   height:100vh;
 }
-  .Nav2{
+  .column1{
     display: flex;
-    flex:0.25;
-    background-color: #D0EDD3;
-    align-self: ;
+    flex:0.3;
   }
-  .headerClass2{
-    background-color: #7EE232;
+    .Nav1{
+      display: flex;
+      background-color: #D0EDD3;
+      flex:1;
+    }
+  .column2{
     display: flex;
-    flex:0.20;
-    align-self: flex-end;
-  } 
-.middleClass2{
-  display: flex;
-  flex-direction: row;
-  
-  flex:0.60;
-}
-  .articleClass2{
-    display: flex;
-    flex:0.6;
-    background-color: #FFFFFF;
+    flex:0.7;
+    flex-direction: column;
   }
-  .asideClass2{
-    display: flex;
-    flex:0.2;
-    background-color: #F2FADA;
-  }
-  
+    .headerClass1{
+      background-color: #7EE232;
+      display: flex;
+      flex:0.20;
+    }
+    .downDiv{
+      display: flex;
+      flex: 0.8;
+      flex-direction: row;
+    }
+      .div1{
+        display: flex;
+        flex: 0.8;
+        flex-direction: column;
+      }
+        .articleClass2{
+          display: flex;
+          flex:0.8;
+          background-color: #FFFFFF;
+        }
+        .footerClass2{
+          display: flex;
+          background-color: #7EE232;
+          flex:0.20;
+          
+        }
 
-.footerClass2{
-  display: flex;
-  
-  background-color: #7EE232;
-  flex:0.20;
-}
+      .div2{
+        display: flex;
+        flex: 0.2;
+      }
+        .asideClass2{
+          display: flex;
+          flex:1;
+          background-color: #F2FADA;
+        }
 
 .textClass2{
   font-family:sans-serif;
   font-weight:bold;
-  padding:2%;
+  padding:3%;
 }
