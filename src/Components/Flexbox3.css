@@ -1,0 +1,88 @@
+.mainClass3{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+}
+    .dv1{
+        display: flex;
+        flex-direction: row;
+        flex: 0.25;
+        justify-content: center;
+    }
+        .box1{
+            background-color:#FF0000;
+            display: flex;
+            flex: 0.3;
+            justify-content: center;
+        }
+        .box2{
+            background-color:#2D72BA;
+            display: flex;
+            flex: 0.3;
+            justify-content: center;
+        }
+        .box3{
+            background-color:#FF0000;
+            display: flex;
+            flex: 0.3  ;
+            justify-content: center;
+        }
+
+    .dv2{
+        display: flex;
+        flex-direction: row;
+        flex: 0.25;
+        justify-content: center;
+    }
+        .dv2 .box1{
+            background-color:#FF0000;
+            display: flex;
+            flex: 0.37  ;
+            justify-content: center;
+        }
+        .dv2 .box2{
+            background-color:#2D72BA;
+            display: flex;
+            flex: 0.16  ;
+            justify-content: center;
+        }
+        .dv2 .box3{
+            background-color:#FF0000;
+            display: flex;
+            flex: 0.37  ;
+            justify-content: center;
+            justify-content: center;
+        }
+    
+    .dv3{
+        display: flex;
+        flex-direction: row;
+        flex: 0.25;
+        justify-content: center;
+    }
+        .dv3 .box1{
+            background-color:#FF0000;
+            display: flex;
+            flex: 0.44  ;
+            justify-content: center;
+
+        }
+        .dv3 .box2{
+            background-color:#2D72BA;
+            display: flex;
+            flex: 0.02  ;
+            justify-content: center;
+        }
+        .dv3 .box3{
+            background-color:#FF0000;
+            display: flex;
+            flex: 0.44  ;
+            justify-content: center;
+        }
+
+.text3{
+    color: white;
+    display: flex;
+    align-self: center;
+}

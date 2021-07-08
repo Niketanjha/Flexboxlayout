@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css'
-import Flexbox2 from './Components/Flexbox2'
 import { BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
 import Flexbox1 from './Components/Flexbox1';
+import Flexbox2 from './Components/Flexbox2'
+import Flexbox3 from './Components/Flexbox3';
 
 class App extends React.Component{
   render(){
@@ -17,7 +18,7 @@ class App extends React.Component{
         <Switch>
           <Route exact path='/' component={Flexbox1}></Route>
           <Route exact path="/flexbox2" component={Flexbox2}></Route>
-          <Route exact path='/flexbox3' ></Route>
+          <Route exact path='/flexbox3' component={Flexbox3}></Route>
         </Switch>
       </div>
     );
